@@ -31,21 +31,21 @@ const catalog = () => {
         })
     })
 
-    catalogMinPrice.addEventListener('input', (event) => {
-        const min = event.target.value;
-        getData().then(data => {
-            renderGoods(priceFilterMin(data, min));
-        })
+    // catalogMinPrice.addEventListener('input', (event) => {
+    //     const min = event.target.value;
+    //     getData().then(data => {
+    //         renderGoods(priceFilterMin(data, min));
+    //     })
 
-    })
+    // })
 
-    catalogMaxPrice.addEventListener('input', (event) => {
-        const min = event.target.value;
-        getData().then(data => {
-            renderGoods(priceFilterMax(data, min));
-        })
+    // catalogMaxPrice.addEventListener('input', (event) => {
+    //     const max = event.target.value;
+    //     getData().then(data => {
+    //         renderGoods(priceFilterMax(data, max));
+    //     })
 
-    })
+    // })
 
 
 
